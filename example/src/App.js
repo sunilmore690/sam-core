@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'sam-core'
+import { Component } from 'sam-core'
 import 'sam-core/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Component.DataGrid text="Create React Library Example 😄" />;
 }
 
 export default App

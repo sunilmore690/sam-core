@@ -1,6 +1,5 @@
-import React from 'react'
-import styles from './styles.module.css'
+import * as MyUtility from "./utility";
+import * as MyCompoonent from "./components";
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export  const Utility = MyUtility;
+export  const Component = MyCompoonent;
